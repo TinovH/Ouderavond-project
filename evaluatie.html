@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ouderinformatieavond</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="menu-area">
+        <ul>
+          <div class="logo">
+            <li>
+              <a href="./index.html"><img src="./img/logo.png" alt="logo" class="logo"/></a>
+            </li>
+          </div>
+          <li>
+            <a href="./Software.html">Software</a>
+          </li>
+          <li>
+            <a href="#">Canvas/Eduarte</a>
+            <ul class="dropdown-1">
+              <li>
+                <a href="./Canvas.html">Canvas</a>
+              </li>
+              <li>
+                <a href="./Eduarte.html">Eduarte</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="./Opleidingswijzer.html">Opleidingswijzer</a>
+          </li>
+          <li>
+            <a href="./BSA.html">Bindendstudie advies</a>
+          </li>
+          <li>
+            <a href="./pdf/examenplan.pdf" target="_blank">Examenplan</a>
+          </li>
+          <li>
+            <a href=" ">Begeleidingsteam</a>
+            <ul class="dropdown-1">
+              <li>
+                <a href="./Begeleidingsteam.html">Begeleidinsteam</a>
+              </li>
+              <li>
+                <a href="./Begeleidingsteam_SLB'er.html">SLB'er</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href=" ">Over ons</a>
+            <ul class="dropdown-1">
+              <li>
+                <a href="./Over_Quinten.html">Quinten</a>
+              </li>
+              <li>
+                <a href="./Over_Tino.html">Tino</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="block">
+        <section class="flex" id="html">
+          <header>
+            <h2>Evaluatie</h2>
+          </header>
+          <p>
+            Bedankt voor uw aandacht als u wilt kunt u hier nog een evaluatie voor ons achterlaten.
+          </p>
+
+          <form method="get">
+
+            <label>Naam*</label>
+            <input type="text" name="first_name" id="first_name" required>
+            <br>
+            <label>Leeftijd</label>
+            <input type="number" id="people" min="0" max="100">
+            <br>
+            <label>Wat vond u van de site?</label>
+            <br>
+            <input type="text" name="revieuw" id="revieuw" required>
+            <br>
+            <label>Hoe goed vond u de uitleg?</label>
+            <br>
+            <input type="radio" name="uitleg" id="uitstekend">
+            <label for="uitstekend">Uitstekend</label>
+            <br>
+            <input type="radio" name="uitleg" id="Goed">
+            <label for="goed">Goed</label>
+            <br>
+            <input type="radio" name="redelijk" id="Goed">
+            <label for="goed">Redelijk</label>
+            <br>
+            <input type="radio" name="slecht" id="Goed">
+            <label for="goed">Slecht</label>
+            <br>
+            <label>Als u een cijfer zou geven wat geeft u ons dan?</label>
+            <input type="number" id="cijfer" min="0" max="10" required>
+            <br>
+            <label>Opmerkingen</label>
+            <br>
+            <input type="text" name="opmerking" id="opmerking" pattern="[a-zA-Z]">
+            <br>
+
+            <button type="submit">Submit</button>
+          </form>
+
+        </section>
+      </section>
+    </main>
+    <footer>Copyright Quinten en Tino</footer>
+  </body>
+</html>
